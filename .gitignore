@@ -1,0 +1,26 @@
+# Core secrets/config
+openclaw.json
+openclaw.json.bak*
+identity/
+devices/
+
+# Agent auth + private runtime
+agents/*/agent/auth-profiles.json
+agents/*/agent/*.key
+agents/*/agent/*.token
+agents/*/sessions/*.lock
+
+# Session transcripts / runtime state (sensitive)
+agents/*/sessions/*.jsonl
+subagents/runs.json
+cron/
+
+# Logs/cache/temp
+logs/
+*.log
+*.tmp
+update-check.json
+
+# Nested repos (if recreated)
+workspace/.git/
+workspaces/*/.git/
