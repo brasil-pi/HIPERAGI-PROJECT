@@ -24,3 +24,4 @@ update-check.json
 # Nested repos (if recreated)
 workspace/.git/
 workspaces/*/.git/
+subagents/
